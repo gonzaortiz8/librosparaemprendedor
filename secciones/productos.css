@@ -821,17 +821,14 @@ div.prod{
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 5px 8px 12px #333;
-    transition: all 0.7s;
+    
     justify-content: center;
     text-align: center;
     height: 270px;
     width: 250px;
 }  
 
-div.prod:hover{
-    transform: scale(1.05);
-    transition: all 0.7s;
-}
+
 
 div.prod1{
     grid-column: 1/2;
