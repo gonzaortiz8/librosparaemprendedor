@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 200px;
+    background-color: black;                                 /*Encabezado*/
+}
+
+h2.subtitulo{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    left: 18px;
+    top: 110px;
+    font-size: 18px;
+    
+}
+
+img.logo-header{
+    height: 200px;
+    width: 270px;                                              /*Logo*/
+    float: left;
+    margin-left: 25px;
+}
+
+
+
+.barra{
+    float: right;                                               /*Barra de secciones*/
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding-top: 78px;
+}
+
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+header a:hover{
+    color: aqua;
+}
+
+fieldset.form__fieldset{
+    height: 550px;
+}
+
+section.contact-form form{                              /*Formulario*/
+    text-align: center;
+    height: 100%;
+    background-color: aqua;
+    font-size: 20px ;
+}
+
+.input-nombre{
+    height: 25px;
+    width: 150px;
+}
+
+.input-apellido{
+    height: 25px;
+    width: 150px;
+}
+
+.input-email{
+    height: 25px;
+    width: 150px;
+}
+
+.input-tel{
+    height: 25px;
+    width: 150px;
+}
+
+
+
+
+footer{                                                                   /*FOOTER*/
+    height: 220px;
+    background-color: black;
+    border-top: 1px solid black;
+}
+
+footer h6{
+    color: aqua;
+    position: relative;
+    top: 190px;
+    margin-left: 15px;
+}
+
+footer img{
+    height: 200px;
+    width: 270px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+div.wpp{
+    color: aqua;
+    text-align:right;
+    position: relative;
+    bottom: 70px;
+    right: 70px;
+    font-size: 60px;
+}
+
+div.wpp a{
+    list-style: none;
+    text-decoration: none;
+    color: aqua;
+}

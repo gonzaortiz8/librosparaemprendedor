@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width:624px){
+    header{
+        height: 450px;
+        width: 100%;
+        background-color: black;
+    }
+
+    img.logo-header{
+        height: 280px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    div.searchbox{
+        text-align: center;
+    }
+
+    .barra{
+        float: right;
+    }
+
+    ul li{
+        display: inline-block;
+        list-style: none;
+        padding-top: 80px;
+        padding-right: 20px;
+}
+
+    ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+    header a:hover{
+    color: aqua;
+}
+
+h2.bienvenidos{
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+main{
+    height: 1200px;
+    width: 100%;
+    background-image: url(./imagenes/fondo.jpg);                 /*Menú*/
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.categorias{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;                                             /*Categorías*/
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+}
+
+img.categorias{
+    height: 350px;
+    width: 350px;                                                /*Imágenes de las categorías*/
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
+h2.libros{
+    background-color: aqua;
+    font-size: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.galeria{                                                            /*Galería de fotos*/
+    height: 1200px;
+    width: 100%;
+    background-image: url(./imagenes/fondo\ negro.png);
+    background-attachment: fixed;
+    border-top: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+
+div.img{
+    height: 370px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 25px;
+    border: 5px solid black;
+    margin-left: 25px;
+    
+}
+
+div.img1{
+    background-image: url(./imagenes/semana-laboral.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img2{
+    background-image: url(./imagenes/trading.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img3{
+    background-image: url(./imagenes/como-ganar.amigos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img4{
+    background-image: url(./imagenes/analisis-tecnico.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img5{
+    background-image: url(./imagenes/el-cuadrante.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img6{
+    background-image: url(./imagenes/vivir-del-trading.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2.ver {
+    background-color: aqua;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{                                                                   /*FOOTER*/
+    height: 220px;
+    background-color: black;
+}
+
+footer h6{
+    color: aqua;
+    position: relative;
+    top: 190px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+footer img{
+    height: 200px;
+    width: 270px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    
+}
+
+div.wpp{
+    color: aqua;
+    text-align:right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+    font-size: 40px;
+}
+
+div.wpp a{
+    list-style: none;
+    text-decoration: none;
+    color: aqua;
+}
+}
+
+@media only screen and (min-width:810px) and (max-width:1050px) {
+    header{
+        height: 450px;
+        width: 100%;
+        background-color: black;
+    }
+
+    img.logo-header{
+        height: 280px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    div.searchbox{
+        text-align: center;
+    }
+
+    .barra{
+        float: right;
+    }
+
+    ul li{
+        display: inline-block;
+        list-style: none;
+        padding-top: 80px;
+        padding-right: 60px;
+}
+
+    ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+    header a:hover{
+    color: aqua;
+}
+
+h2.bienvenidos{
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+main{
+    height: 1000px;
+    width: 100%;
+    background-image: url(./imagenes/fondo.jpg);                 /*Menú*/
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.categorias{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;                                             /*Categorías*/
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+img.categorias{
+    height: 250px;
+    width: 350px;                                                /*Imágenes de las categorías*/
+    margin-top: 35px;
+    border-radius: 50px;
+}
+
+h2.libros{
+    background-color: aqua;
+    font-size: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.galeria{                                                            /*Galería de fotos*/
+    height: 1200px;
+    width: 100%;
+    background-image: url(./imagenes/fondo\ negro.png);
+    background-attachment: fixed;
+    border-top: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+
+div.img{
+    height: 370px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 25px;
+    border: 5px solid black;
+    margin-left: 25px;
+    
+}
+
+div.img1{
+    background-image: url(./imagenes/semana-laboral.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img2{
+    background-image: url(./imagenes/trading.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img3{
+    background-image: url(./imagenes/como-ganar.amigos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img4{
+    background-image: url(./imagenes/analisis-tecnico.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img5{
+    background-image: url(./imagenes/el-cuadrante.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img6{
+    background-image: url(./imagenes/vivir-del-trading.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2.ver {
+    background-color: aqua;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{                                                                   /*FOOTER*/
+    height: 220px;
+    background-color: black;
+}
+
+footer h6{
+    color: aqua;
+    position: relative;
+    top: 190px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+footer img{
+    height: 200px;
+    width: 270px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    
+}
+
+div.wpp{
+    color: aqua;
+    text-align:right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+    font-size: 40px;
+}
+
+div.wpp a{
+    list-style: none;
+    text-decoration: none;
+    color: aqua;
+}
+}
+
+@media only screen and (min-width:1050px) and (max-width:1249px) {
+    header{
+        height: 450px;
+        width: 100%;
+        background-color: black;
+    }
+
+    img.logo-header{
+        height: 280px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    div.searchbox{
+        text-align: center;
+    }
+
+    .barra{
+        float: right;
+    }
+
+    ul li{
+        display: inline-block;
+        list-style: none;
+        padding-top: 80px;
+        padding-right: 120px;
+}
+
+    ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+    header a:hover{
+    color: aqua;
+}
+
+h2.bienvenidos{
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+main{
+    height: 800px;
+    width: 100%;
+    background-image: url(./imagenes/fondo.jpg);                 /*Menú*/
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.categorias{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;                                             /*Categorías*/
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+}
+
+img.categorias{
+    height: 370px;
+    width: 350px;                                                /*Imágenes de las categorías*/
+    margin-top: 35px;
+    border-radius: 50px;
+}
+
+h2.libros{
+    background-color: aqua;
+    font-size: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.galeria{                                                            /*Galería de fotos*/
+    height: 1200px;
+    width: 100%;
+    background-image: url(./imagenes/fondo\ negro.png);
+    background-attachment: fixed;
+    border-top: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+div.img{
+    height: 390px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 25px;
+    border: 5px solid black;
+    margin-left: 25px;
+    
+}
+
+div.img1{
+    background-image: url(./imagenes/semana-laboral.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img2{
+    background-image: url(./imagenes/trading.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img3{
+    background-image: url(./imagenes/como-ganar.amigos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img4{
+    background-image: url(./imagenes/analisis-tecnico.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img5{
+    background-image: url(./imagenes/el-cuadrante.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img6{
+    background-image: url(./imagenes/vivir-del-trading.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2.ver {
+    background-color: aqua;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{                                                                   /*FOOTER*/
+    height: 220px;
+    background-color: black;
+}
+
+footer h6{
+    color: aqua;
+    position: relative;
+    top: 190px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+footer img{
+    height: 200px;
+    width: 270px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    
+}
+
+div.wpp{
+    color: aqua;
+    text-align:right;
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+    font-size: 40px;
+}
+
+div.wpp a{
+    list-style: none;
+    text-decoration: none;
+    color: aqua;
+}
+}
+
+@media only screen and (min-width:1250px){
+    
+header{
+    height: 200px;
+    background-color: black;                                 /*Encabezado*/
+}
+
+img.logo-header{
+    height: 200px;
+    width: 270px;                                              /*Logo*/
+    float: left;
+    margin-left: 25px;
+}
+
+div.searchbox{
+    text-align: center;
+    position: relative;                                        /*Caja de búsqueda*/
+    top: 110px;
+    right: 240px;
+}
+
+.barra{
+    float: right;                                               /*Barra de secciones*/
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding-top: 80px;
+}
+
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+header a:hover{
+    color: aqua;
+}
+
+main{
+    height: 80vh;
+    width: 100%;
+    background-image: url(./imagenes/fondo.jpg);                 /*Menú*/
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2.bienvenidos{
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.categorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;                                             /*Categorías*/
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+img.categorias{
+    height: 400px;
+    width: 350px;                                                /*Imágenes de las categorías*/
+    margin-top: -20px;
+    border-radius: 50px;
+}
+
+h2.libros{
+    background-color: aqua;
+    font-size: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.galeria{                                                            /*Galería de fotos*/
+    height: 800px;
+    width: 100%;
+    background-image: url(./imagenes/fondo\ negro.png);
+    background-attachment: fixed;
+    border-top: 2px solid black;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+div.img{
+    height: 370px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 25px;
+    border: 5px solid black;
+    
+}
+
+div.img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(./imagenes/semana-laboral.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(./imagenes/trading.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(./imagenes/como-ganar.amigos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url(./imagenes/analisis-tecnico.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(./imagenes/el-cuadrante.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.img6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(./imagenes/vivir-del-trading.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2.ver {
+    background-color: aqua;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+footer{                                                                   /*FOOTER*/
+    height: 220px;
+    background-color: black;
+}
+
+footer h6{
+    color: aqua;
+    position: relative;
+    top: 190px;
+    margin-left: 15px;
+}
+
+footer img{
+    height: 200px;
+    width: 270px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+div.wpp{
+    color: aqua;
+    text-align:right;
+    position: relative;
+    bottom: 70px;
+    right: 70px;
+    font-size: 60px;
+}
+
+div.wpp a{
+    list-style: none;
+    text-decoration: none;
+    color: aqua;
+}
+
+}
